@@ -52,3 +52,29 @@ the dates on which favourite celebrities of selected categories have birthdays (
 Birthday calendar | Birthday calendar
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/65861136/120795899-c5160480-c542-11eb-893e-774fceb021d2.png) | ![image](https://user-images.githubusercontent.com/65861136/120795972-da8b2e80-c542-11eb-9d26-7e9e29788a90.png)
+
+# 6.
+The screen shall be titled Birthday Calendar. It shall initially display the current month, 
+which is to be indicated in the top-left corner of the screen, as illustrated in the 
+screenshots. It shall further offer the user a possibility of moving back and forth in time by 
+pressing the respective buttons at the bottom of the screen. Weeks in the calendar shall 
+commence on Monday. Dates of the preceding and the following month should not be 
+displayed. It is essential that birthdays repeat themselves year on year. The screen shall 
+also let the user navigate back to the home screen. Hints: the calendar grid functionality 
+can be implemented in Xamarin.Forms by means of a CollectionView with an 
+ItemTemplate that contains a Label and, optionally, other views. The property ItemsLayout
+of the CollectionView shall be set to "VerticalGrid, 7" in order to achieve the desired 7-
+column layout. Highlighting of dates in the calendar may deviate from the examples given 
+here in terms of colour and shape. Further, you may find the following methods and 
+properties of the DateTime class in C# useful: DaysInMonth(), Today, and DayOfWeek.
+
+# 7.
+Clicking on a date that indicates a celebrities’ birthday shall reveal the celebrity’s name
+underneath the calendar, or the list of names if there are several celebrities having their 
+birthday on that date. Further, by tapping on a celebrity’s name, the user shall be able to 
+see their picture and basic information about them displayed on a separate screen. 
+That screen shall have the celebrity’s name as its title, and it shall let the user navigate 
+back to the calendar. The screenshots below illustrate this. Clicking on any date that is 
+not a birthday shall remove celebrity names from the screen. Also moving from month to 
+another shall remove any celebrity names from the screen. Hint: the list functionality can 
+be implemented in Xamarin.Forms by means of a ListView.

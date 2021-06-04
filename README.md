@@ -43,3 +43,8 @@ implemented in Xamarin.Forms by means of a ListView with an ItemTemplate that
 contains a SwitchCell.
 
 ![image](https://user-images.githubusercontent.com/65861136/120795448-2be6ee00-c542-11eb-83b5-22d6a2b4082b.png)
+
+# 5.
+Selecting the Birthday calendar item from the menu on the home screen shall display a
+calendar in the month view as illustrated below, and highlight the current date (left), and 
+the dates on which favourite celebrities of selected categories have birthdays (right).

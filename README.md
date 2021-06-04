@@ -82,3 +82,16 @@ be implemented in Xamarin.Forms by means of a ListView.
 Birthday Calendar | Celebrity Details
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/65861136/120796376-6d2bcd80-c543-11eb-8d0c-0fe111521a27.png) | ![image](https://user-images.githubusercontent.com/65861136/120796462-82a0f780-c543-11eb-8c81-f49678ef3a3a.png)
+
+# 8.
+On start of the app, it shall receive the celebrities’ data as a character string in the JSON 
+format. These data may include any number of celebrities.For simplicity of developing and testing 
+the app, the entire contents of the text file can be assigned to a local variable of type 
+‘string’ in the body of the method OnStart() of the App class. The value of that variable 
+can then be converted to an array of objects that will represent the respective celebrities.
+# 9.
+The app shall persist the user’s preferences in terms of favourite celebrities and celebrity 
+categories. These preferences shall be saved when the app closes or is moved into the 
+background; and they shall be restored when the app is starting or resuming. As there are 
+no preferences to be restored on the first start, the app shall assume that all celebrity 
+categories are selected but none of the celebrities are selected as favourite

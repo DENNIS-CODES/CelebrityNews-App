@@ -78,3 +78,7 @@ back to the calendar. The screenshots below illustrate this. Clicking on any dat
 not a birthday shall remove celebrity names from the screen. Also moving from month to 
 another shall remove any celebrity names from the screen. Hint: the list functionality can 
 be implemented in Xamarin.Forms by means of a ListView.
+
+Birthday Calendar | Celebrity Details
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/65861136/120796376-6d2bcd80-c543-11eb-8d0c-0fe111521a27.png) | ![image](https://user-images.githubusercontent.com/65861136/120796462-82a0f780-c543-11eb-8c81-f49678ef3a3a.png)

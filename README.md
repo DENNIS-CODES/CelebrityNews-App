@@ -41,3 +41,5 @@ let the user navigate back to the home screen. The user’s choice shall persist
 displayed when the user revisits this screen. Hint: the screen functionality can be 
 implemented in Xamarin.Forms by means of a ListView with an ItemTemplate that 
 contains a SwitchCell.
+
+![image](https://user-images.githubusercontent.com/65861136/120795448-2be6ee00-c542-11eb-83b5-22d6a2b4082b.png)

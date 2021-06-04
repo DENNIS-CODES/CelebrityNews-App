@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Celebrity_News.Views.CelebrityPage">
+    <ContentPage.Content>
+            <ScrollView>
+                <StackLayout Margin="20">
+                    <Picker Title="{Binding SelectedCelebrity}" ItemsSource="{Binding Humans}" ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding SelectedHuman}" />
+                    <Label Text="{Binding SelectedCelebrity.Name}" HorizontalOptions="Center" Style="{DynamicResource TitleStyle}" />
+                    <Label Text="{Binding SelectedCelebrity.Location}" FontAttributes="Italic" HorizontalOptions="Center" />
+                    <Image Source="{Binding SelectedCelebrity.ImageUrl}" HeightRequest="200" WidthRequest="200" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="{Binding SelectedCelebrity.Details}" Style="{DynamicResource BodyStyle}" />
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+</ContentPage>
+    
+    
+        

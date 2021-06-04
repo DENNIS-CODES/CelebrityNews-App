@@ -48,3 +48,7 @@ contains a SwitchCell.
 Selecting the Birthday calendar item from the menu on the home screen shall display a
 calendar in the month view as illustrated below, and highlight the current date (left), and 
 the dates on which favourite celebrities of selected categories have birthdays (right).
+
+Birthday calendar | Birthday calendar
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/65861136/120795899-c5160480-c542-11eb-893e-774fceb021d2.png) | ![image](https://user-images.githubusercontent.com/65861136/120795972-da8b2e80-c542-11eb-9d26-7e9e29788a90.png)

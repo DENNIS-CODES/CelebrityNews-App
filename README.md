@@ -1,5 +1,5 @@
 # CelebrityNews-App
-Created using Xamarian forms a framework of .NET
+Created using Xamarian forms the popular mobile development framework that extends the .NET developer platform with tools and libraries for building mobile apps.
 
 # 1.
 The application contains a home screen with the title CelebJITSU Home, as 
